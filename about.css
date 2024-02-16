@@ -1,0 +1,41 @@
+.Card {
+    width: 250px;
+    height: 250px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    background-image: url("../assets/cards/capa_restart.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.Card img {
+    width: 200px;
+}
+
+.legenda {
+    width: auto;
+    height: 50px;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.legenda p {
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+
+    .Card {
+        width: 350px;
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}

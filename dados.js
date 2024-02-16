@@ -1,4 +1,4 @@
-export let listaMeses = {
+let listaMeses = {
     Janeiro: {
         evento_1: {
             nome: "evento 2",
